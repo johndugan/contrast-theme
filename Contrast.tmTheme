@@ -440,6 +440,109 @@
             </dict>
         </dict>
 
+
+        <!-- HTML -->
+
+        <dict>
+            <key>name</key>
+            <string>Element Tag Name</string>
+            <key>scope</key>
+            <string>text.html.basic entity.name.tag.block.any.html, text.html.basic entity.name.tag.inline.any.html, text.html.basic meta.tag.structure.any.html entity.name.tag.structure.any.html</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#FF5E5E</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>Element Brackets</string>
+            <key>scope</key>
+            <string>text.html.basic punctuation.definition.tag.begin.html, text.html.basic punctuation.definition.tag.end.html</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#EEEEEE</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>Empty Element Tag Name</string>
+            <key>scope</key>
+            <string>text.html.basic meta.tag.any.html entity.name.tag.html</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#E9FDAC</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>Empty Element Brackets</string>
+            <key>scope</key>
+            <string>text.html.basic meta.tag.any.html punctuation.definition.tag.begin.html, text.html.basic meta.tag.any.html punctuation.definition.tag.end.html</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#E9FDAC</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>Inline-Script Tag Name</string>
+            <key>scope</key>
+            <string>text.html.basic source.js.embedded.html entity.name.tag.script.html, text.html.basic source.js.embedded.html entity.name.tag.html</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#E9FDAC</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>Inline-Script Tag Brackets</string>
+            <key>scope</key>
+            <string>text.html.basic source.js.embedded.html punctuation.definition.tag.begin.html, text.html.basic source.js.embedded.html punctuation.definition.tag.end.html</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#E9FDAC</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>Attribute Name</string>
+            <key>scope</key>
+            <string>text.html.basic entity.other.attribute-name.html</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#8CDAFF</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>Attribute Value</string>
+            <key>scope</key>
+            <string>text.html.basic string.quoted.single.html, text.html.basic string.quoted.double.html</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#FBDFB5</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>Style Attribute Name</string>
+            <key>scope</key>
+            <string>text.html.basic entity.other.attribute-name.style.html</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#8CDAFF</string>
+            </dict>
+        </dict>
+
     </array>
 </dict>
 </plist>
