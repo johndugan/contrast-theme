@@ -321,6 +321,125 @@
                 <string>#FF5E5E</string>
             </dict>
         </dict>
+
+
+        <!-- Sass -->
+
+        <dict>
+            <key>name</key>
+            <string>Class Name</string>
+            <key>scope</key>
+            <string>source.sass entity.other.attribute-name.class.sass</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#8CDAFF</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>Property Name</string>
+            <key>scope</key>
+            <string>source.sass support.type.property-name.sass</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string></string>
+            </dict>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>Property Value</string>
+            <key>scope</key>
+            <string>source.sass support.constant.property-value.sass</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#FBDFB5</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>String</string>
+            <key>scope</key>
+            <string>source.sass string.quoted.single.sass, source.sass string.quoted.double.sass</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#FBDFB5</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>Number</string>
+            <key>scope</key>
+            <string>source.sass constant.numeric.sass</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#D0D0D0</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>Unit of Measure</string>
+            <key>scope</key>
+            <string>source.sass constant.other.unit.sass</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#D0D0D0</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>Variable or Function Parameter</string>
+            <key>scope</key>
+            <string>source.sass variable.parameter.sass</string>
+            <key>settings</key>
+            <dict>
+                <key>fontStyle</key>
+                <string>italic</string>
+                <key>foreground</key>
+                <string>#FBDFB5</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>Mixin Placeholder Function</string>
+            <key>scope</key>
+            <string>source.sass keyword.control.at-rule.sass</string>
+            <key>settings</key>
+            <dict>
+                <key>fontStyle</key>
+                <string>italic</string>
+                <key>foreground</key>
+                <string>#FBDFB5</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>Ampersand Character</string>
+            <key>scope</key>
+            <string>source.sass keyword.control.untitled</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#FF5E5E</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>Pseudo Selector</string>
+            <key>scope</key>
+            <string>source.sass entity.other.attribute-name.tag.pseudo-class</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#FF5E5E</string>
+            </dict>
+        </dict>
+
     </array>
 </dict>
 </plist>
