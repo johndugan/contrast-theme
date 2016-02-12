@@ -88,7 +88,7 @@
             <key>name</key>
             <string>Parenthesis</string>
             <key>scope</key>
-            <string>source.js meta.group.braces.round meta.brace.round.js, source.js meta.group.braces.round meta.function-call.method.without-arguments.js meta.group.braces.round.function.arguments.js, source.js meta.group.braces.round meta.function.js punctuation.definition.parameters.begin.js, source.js meta.group.braces.round meta.function.js punctuation.definition.parameters.end.js, source.js meta.group.braces.round meta.function.json.js punctuation.definition.parameters.begin.js, source.js meta.group.braces.round meta.function.json.js punctuation.definition.parameters.end.js</string>
+            <string>source.js meta.group.braces.round meta.brace.round.js, source.js meta.function-call.method.without-arguments.js meta.group.braces.round.function.arguments.js, source.js meta.function.js punctuation.definition.parameters.begin.js, source.js meta.function.js punctuation.definition.parameters.end.js, source.js meta.function.json.js punctuation.definition.parameters.begin.js, source.js meta.function.json.js punctuation.definition.parameters.end.js</string>
             <key>settings</key>
             <dict>
                 <key>foreground</key>
@@ -110,7 +110,7 @@
             <key>name</key>
             <string>Function Keyword</string>
             <key>scope</key>
-            <string>source.js meta.group.braces.round meta.function.js storage.type.function.js, source.js meta.group.braces.round meta.group.braces.curly meta.function.js storage.type.function.js, source.js meta.group.braces.round meta.group.braces.curly meta.function.static.js storage.type.function.js, source.js meta.group.braces.round meta.group.braces.curly meta.function.json.js storage.type.function.js</string>
+            <string>source.js meta.function.js storage.type.function.js, source.js meta.function.static.js storage.type.function.js, source.js meta.group.braces.curly meta.function.json.js storage.type.function.js</string>
             <key>settings</key>
             <dict>
                 <key>fontStyle</key>
@@ -123,7 +123,7 @@
             <key>name</key>
             <string>Function Name</string>
             <key>scope</key>
-            <string>source.js meta.group.braces.round meta.group.braces.curly meta.function.js entity.name.function.js, source.js meta.group.braces.round meta.group.braces.curly meta.function.static.js entity.name.function.js, source.js meta.group.braces.round meta.group.braces.curly meta.function.json.js entity.name.function.js</string>
+            <string>source.js meta.function.js entity.name.function.js, source.js meta.function.static.js entity.name.function.js, source.js meta.group.braces.curly meta.function.json.js entity.name.function.js</string>
             <key>settings</key>
             <dict>
                 <key>foreground</key>
@@ -134,7 +134,7 @@
             <key>name</key>
             <string>Function Parameter</string>
             <key>scope</key>
-            <string>source.js meta.group.braces.round meta.function.js variable.parameter.function.js, source.js meta.group.braces.round meta.group.braces.curly meta.function.json.js variable.parameter.function.js</string>
+            <string>source.js variable.parameter.function.js</string>
             <key>settings</key>
             <dict>
                 <key>fontStyle</key>
@@ -147,7 +147,7 @@
             <key>name</key>
             <string>Function Invoked</string>
             <key>scope</key>
-            <string>source.js meta.group.braces.round meta.group.braces.curly meta.instance.constructor variable.function.constructor.js, source.js meta.group.braces.round meta.group.braces.curly meta.function-call.with-arguments.js variable.function.js, source.js meta.group.braces.round meta.group.braces.curly meta.function-call.without-arguments.js variable.function.js, source.js meta.group.braces.round meta.group.braces.curly meta.function-call.method.with-arguments.js variable.function.js, source.js meta.group.braces.round meta.group.braces.curly meta.function-call.method.without-arguments.js variable.function.js</string>
+            <string>source.js meta.instance.constructor variable.function.constructor.js, source.js meta.function-call.with-arguments.js variable.function.js, source.js meta.function-call.without-arguments.js variable.function.js, source.js meta.function-call.method.with-arguments.js variable.function.js, source.js meta.function-call.method.without-arguments.js variable.function.js, source.js meta.function-call.static.with-arguments.js variable.function.js, source.js meta.function-call.static.without-arguments.js variable.function.js</string>
             <key>settings</key>
             <dict>
                 <key>foreground</key>
@@ -226,7 +226,7 @@
             <key>name</key>
             <string>Prototype Keyword</string>
             <key>scope</key>
-            <string>source.js meta.group.braces.round meta.group.braces.curly meta.prototype.access.js variable.language.prototype.js</string>
+            <string>source.js variable.language.prototype.js</string>
             <key>settings</key>
             <dict>
                 <key>foreground</key>
@@ -237,7 +237,7 @@
             <key>name</key>
             <string>New Operator</string>
             <key>scope</key>
-            <string>source.js meta.group.braces.round meta.group.braces.curly keyword.operator.new.js</string>
+            <string>source.js keyword.operator.new.js</string>
             <key>settings</key>
             <dict>
                 <key>foreground</key>
@@ -248,7 +248,7 @@
             <key>name</key>
             <string>Accessor Operator</string>
             <key>scope</key>
-            <string>source.js meta.group.braces.round meta.group.braces.curly keyword.operator.accessor.js</string>
+            <string>source.js keyword.operator.accessor.js</string>
             <key>settings</key>
             <dict>
                 <key>foreground</key>
@@ -259,7 +259,7 @@
             <key>name</key>
             <string>Assignment Operator</string>
             <key>scope</key>
-            <string>source.js meta.group.braces.round meta.group.braces.curly keyword.operator.assignment.js</string>
+            <string>source.js keyword.operator.assignment.js</string>
             <key>settings</key>
             <dict>
                 <key>foreground</key>
@@ -270,7 +270,7 @@
             <key>name</key>
             <string>Comparison Operator</string>
             <key>scope</key>
-            <string>source.js meta.group.braces.round meta.group.braces.curly keyword.operator.comparison.js</string>
+            <string>source.js keyword.operator.comparison.js</string>
             <key>settings</key>
             <dict>
                 <key>foreground</key>
@@ -281,7 +281,7 @@
             <key>name</key>
             <string>Math Operator</string>
             <key>scope</key>
-            <string>source.js meta.group.braces.round meta.group.braces.curly keyword.operator.arithmetic.js</string>
+            <string>source.js keyword.operator.arithmetic.js</string>
             <key>settings</key>
             <dict>
                 <key>foreground</key>
@@ -292,7 +292,7 @@
             <key>name</key>
             <string>Logical Operator</string>
             <key>scope</key>
-            <string>source.js meta.group.braces.round meta.group.braces.curly keyword.operator.logical.js</string>
+            <string>source.js keyword.operator.logical.js</string>
             <key>settings</key>
             <dict>
                 <key>foreground</key>
@@ -303,7 +303,7 @@
             <key>name</key>
             <string>Return Keyword</string>
             <key>scope</key>
-            <string>source.js meta.group.braces.round meta.group.braces.curly keyword.control.flow.js</string>
+            <string>source.js keyword.control.flow.js</string>
             <key>settings</key>
             <dict>
                 <key>foreground</key>
@@ -314,7 +314,7 @@
             <key>name</key>
             <string>If/Else Keyword</string>
             <key>scope</key>
-            <string>source.js meta.group.braces.round meta.group.braces.curly keyword.control.conditional.js</string>
+            <string>source.js keyword.control.conditional.js</string>
             <key>settings</key>
             <dict>
                 <key>foreground</key>
