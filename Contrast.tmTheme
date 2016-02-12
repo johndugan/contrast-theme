@@ -1,0 +1,326 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>name</key>
+    <string>Contrast</string>
+    <key>author</key>
+    <string>John Dugan (https://john-dugan.com)</string>
+    <key>settings</key>
+    <array>
+        <dict>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#F8F8F2</string>
+                <key>background</key>
+                <string>#191919</string>
+                <key>invisibles</key>
+                <string>#3B3A32</string>
+                <key>caret</key>
+                <string>#F8F8F0</string>
+                <key>lineHighlight</key>
+                <string>#3D3D3D54</string>
+                <key>selection</key>
+                <string>#515151</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>SublimeLinter Error</string>
+            <key>scope</key>
+            <string>sublimelinter.mark.error</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#D02000</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>SublimeLinter Warning</string>
+            <key>scope</key>
+            <string>sublimelinter.mark.warning</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#DDB700</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>SublimeLinter Gutter Mark</string>
+            <key>scope</key>
+            <string>sublimelinter.gutter-mark</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#FFFFFF</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>Comment</string>
+            <key>scope</key>
+            <string>comment</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#6D6D6D</string>
+            </dict>
+        </dict>
+
+
+        <!-- JAVASCRIPT -->
+
+        <dict>
+            <key>name</key>
+            <string>Curly Braces</string>
+            <key>scope</key>
+            <string>source.js meta.group.braces.curly meta.brace.curly.js</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#A9B9B0</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>Parenthesis</string>
+            <key>scope</key>
+            <string>source.js meta.group.braces.round meta.brace.round.js, source.js meta.group.braces.round meta.function-call.method.without-arguments.js meta.group.braces.round.function.arguments.js, source.js meta.group.braces.round meta.function.js punctuation.definition.parameters.begin.js, source.js meta.group.braces.round meta.function.js punctuation.definition.parameters.end.js, source.js meta.group.braces.round meta.function.json.js punctuation.definition.parameters.begin.js, source.js meta.group.braces.round meta.function.json.js punctuation.definition.parameters.end.js</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#C9E9E0</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>Square Brackets</string>
+            <key>scope</key>
+            <string>source.js meta.group.braces.square meta.brace.square.js</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#D77676</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>Function Keyword</string>
+            <key>scope</key>
+            <string>source.js meta.group.braces.round meta.function.js storage.type.function.js, source.js meta.group.braces.round meta.group.braces.curly meta.function.js storage.type.function.js, source.js meta.group.braces.round meta.group.braces.curly meta.function.static.js storage.type.function.js, source.js meta.group.braces.round meta.group.braces.curly meta.function.json.js storage.type.function.js</string>
+            <key>settings</key>
+            <dict>
+                <key>fontStyle</key>
+                <string>italic</string>
+                <key>foreground</key>
+                <string>#FBDFB5</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>Function Name</string>
+            <key>scope</key>
+            <string>source.js meta.group.braces.round meta.group.braces.curly meta.function.js entity.name.function.js, source.js meta.group.braces.round meta.group.braces.curly meta.function.static.js entity.name.function.js, source.js meta.group.braces.round meta.group.braces.curly meta.function.json.js entity.name.function.js</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#8CDAFF</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>Function Parameter</string>
+            <key>scope</key>
+            <string>source.js meta.group.braces.round meta.function.js variable.parameter.function.js, source.js meta.group.braces.round meta.group.braces.curly meta.function.json.js variable.parameter.function.js</string>
+            <key>settings</key>
+            <dict>
+                <key>fontStyle</key>
+                <string>italic</string>
+                <key>foreground</key>
+                <string>#D0D0D0</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>Function Invoked</string>
+            <key>scope</key>
+            <string>source.js meta.group.braces.round meta.group.braces.curly meta.instance.constructor variable.function.constructor.js, source.js meta.group.braces.round meta.group.braces.curly meta.function-call.with-arguments.js variable.function.js, source.js meta.group.braces.round meta.group.braces.curly meta.function-call.without-arguments.js variable.function.js, source.js meta.group.braces.round meta.group.braces.curly meta.function-call.method.with-arguments.js variable.function.js, source.js meta.group.braces.round meta.group.braces.curly meta.function-call.method.without-arguments.js variable.function.js</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#C9E9E0</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>Var Keyword</string>
+            <key>scope</key>
+            <string>source.js storage.type.js</string>
+            <key>settings</key>
+            <dict>
+                <key>fontStyle</key>
+                <string>italic</string>
+                <key>foreground</key>
+                <string>#FBDFB5</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>String</string>
+            <key>scope</key>
+            <string>source.js string.quoted.single.js, source.js string.quoted.double.js</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#FBDFB5</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>Number</string>
+            <key>scope</key>
+            <string>source.js constant.numeric.js</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#D0D0D0</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>Boolean</string>
+            <key>scope</key>
+            <string>source.js constant.language.boolean.true.js, source.js constant.language.boolean.false.js</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#D77676</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>Null</string>
+            <key>scope</key>
+            <string>source.js constant.language.null.js</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#D77676</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>This Keyword</string>
+            <key>scope</key>
+            <string>source.js variable.language.this.js</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#E9FDAC</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>Prototype Keyword</string>
+            <key>scope</key>
+            <string>source.js meta.group.braces.round meta.group.braces.curly meta.prototype.access.js variable.language.prototype.js</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#E9FDAC</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>New Operator</string>
+            <key>scope</key>
+            <string>source.js meta.group.braces.round meta.group.braces.curly keyword.operator.new.js</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#FF5E5E</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>Accessor Operator</string>
+            <key>scope</key>
+            <string>source.js meta.group.braces.round meta.group.braces.curly keyword.operator.accessor.js</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#FF5E5E</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>Assignment Operator</string>
+            <key>scope</key>
+            <string>source.js meta.group.braces.round meta.group.braces.curly keyword.operator.assignment.js</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#FF5E5E</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>Comparison Operator</string>
+            <key>scope</key>
+            <string>source.js meta.group.braces.round meta.group.braces.curly keyword.operator.comparison.js</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#FF5E5E</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>Math Operator</string>
+            <key>scope</key>
+            <string>source.js meta.group.braces.round meta.group.braces.curly keyword.operator.arithmetic.js</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#FF5E5E</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>Logical Operator</string>
+            <key>scope</key>
+            <string>source.js meta.group.braces.round meta.group.braces.curly keyword.operator.logical.js</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#FF5E5E</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>Return Keyword</string>
+            <key>scope</key>
+            <string>source.js meta.group.braces.round meta.group.braces.curly keyword.control.flow.js</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#FF5E5E</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>If/Else Keyword</string>
+            <key>scope</key>
+            <string>source.js meta.group.braces.round meta.group.braces.curly keyword.control.conditional.js</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#FF5E5E</string>
+            </dict>
+        </dict>
+    </array>
+</dict>
+</plist>
