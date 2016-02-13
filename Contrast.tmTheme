@@ -88,7 +88,7 @@
             <key>name</key>
             <string>Parenthesis</string>
             <key>scope</key>
-            <string>source.js meta.group.braces.round meta.brace.round.js, source.js meta.function-call.method.without-arguments.js meta.group.braces.round.function.arguments.js, source.js meta.function.js punctuation.definition.parameters.begin.js, source.js meta.function.js punctuation.definition.parameters.end.js, source.js meta.function.json.js punctuation.definition.parameters.begin.js, source.js meta.function.json.js punctuation.definition.parameters.end.js</string>
+            <string>source.js meta.group.braces.round meta.brace.round.js, source.js meta.function-call.method.without-arguments.js meta.group.braces.round.function.arguments.js, source.js meta.function.js punctuation.definition.parameters.begin.js, source.js meta.function.js punctuation.definition.parameters.end.js, source.js meta.function.json.js punctuation.definition.parameters.begin.js, source.js meta.function.json.js punctuation.definition.parameters.end.js, source.js meta.function.static.js punctuation.definition.parameters.begin, source.js meta.function.static.js punctuation.definition.parameters.end.js</string>
             <key>settings</key>
             <dict>
                 <key>foreground</key>
@@ -259,7 +259,7 @@
             <key>name</key>
             <string>Assignment Operator</string>
             <key>scope</key>
-            <string>source.js keyword.operator.assignment.js</string>
+            <string>source.js keyword.operator.assignment.js, source.js meta.function.static.js</string>
             <key>settings</key>
             <dict>
                 <key>foreground</key>
@@ -349,9 +349,9 @@
         </dict>
         <dict>
             <key>name</key>
-            <string>Wildcard Selector</string>
+            <string>Element Selector</string>
             <key>scope</key>
-            <string>source.css entity.name.tag.wildcard.css</string>
+            <string>source.css entity.name.tag.css</string>
             <key>settings</key>
             <dict>
                 <key>foreground</key>
@@ -360,9 +360,9 @@
         </dict>
         <dict>
             <key>name</key>
-            <string>Element Selector</string>
+            <string>Wildcard Selector</string>
             <key>scope</key>
-            <string>source.css entity.name.tag.css</string>
+            <string>source.css entity.name.tag.wildcard.css</string>
             <key>settings</key>
             <dict>
                 <key>foreground</key>
@@ -400,17 +400,6 @@
             <dict>
                 <key>foreground</key>
                 <string>#FBDFB5</string>
-            </dict>
-        </dict>
-        <dict>
-            <key>name</key>
-            <string>Important Keyword</string>
-            <key>scope</key>
-            <string>source.css keyword.other.important.css</string>
-            <key>settings</key>
-            <dict>
-                <key>foreground</key>
-                <string>#D77676</string>
             </dict>
         </dict>
         <dict>
@@ -470,24 +459,24 @@
         </dict>
         <dict>
             <key>name</key>
-            <string>Function Invoked</string>
-            <key>scope</key>
-            <string>source.css support.function.misc.css, source.css punctuation.section.function.css</string>
-            <key>settings</key>
-            <dict>
-                <key>foreground</key>
-                <string>#C9E9E0</string>
-            </dict>
-        </dict>
-        <dict>
-            <key>name</key>
             <string>Pseudo State Selector</string>
             <key>scope</key>
             <string>source.css entity.other.attribute-name.pseudo-class.css</string>
             <key>settings</key>
             <dict>
                 <key>foreground</key>
-                <string>#FF5E5E</string>
+                <string>#E9FDAC</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>Pseudo Element Selector</string>
+            <key>scope</key>
+            <string>source.css entity.other.attribute-name.pseudo-element.css</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#E9FDAC</string>
             </dict>
         </dict>
         <dict>
@@ -514,55 +503,29 @@
         </dict>
         <dict>
             <key>name</key>
-            <string>Pseudo Element Selector</string>
+            <string>Important Keyword</string>
             <key>scope</key>
-            <string>source.css entity.other.attribute-name.pseudo-element.css</string>
+            <string>source.css keyword.control.at-rule.import.css</string>
+            <key>settings</key>
+            <dict>
+                <key>fontStyle</key>
+                <string>italic</string>
+                <key>foreground</key>
+                <string>#FBDFB5</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>Function Invoked</string>
+            <key>scope</key>
+            <string>source.css support.function.url.css, source.css support.function.misc.css, source.css punctuation.section.function.css</string>
             <key>settings</key>
             <dict>
                 <key>foreground</key>
-                <string>#FF5E5E</string>
+                <string>#C9E9E0</string>
             </dict>
         </dict>
 
-<!--
-        <dict>
-            <key>name</key>
-            <string>Variable or Function Parameter</string>
-            <key>scope</key>
-            <string>source.css variable.parameter.css</string>
-            <key>settings</key>
-            <dict>
-                <key>fontStyle</key>
-                <string>italic</string>
-                <key>foreground</key>
-                <string>#FBDFB5</string>
-            </dict>
-        </dict>
-        <dict>
-            <key>name</key>
-            <string>Mixin Placeholder Function</string>
-            <key>scope</key>
-            <string>source.css keyword.control.at-rule.css</string>
-            <key>settings</key>
-            <dict>
-                <key>fontStyle</key>
-                <string>italic</string>
-                <key>foreground</key>
-                <string>#FBDFB5</string>
-            </dict>
-        </dict>
-        <dict>
-            <key>name</key>
-            <string>Ampersand Character</string>
-            <key>scope</key>
-            <string>source.css keyword.control.untitled</string>
-            <key>settings</key>
-            <dict>
-                <key>foreground</key>
-                <string>#FF5E5E</string>
-            </dict>
-        </dict>
--->
 
         <!-- Sass -->
 
@@ -614,7 +577,7 @@
             <key>name</key>
             <string>Property Value</string>
             <key>scope</key>
-            <string>source.sass support.constant.property-value.sass</string>
+            <string>source.sass support.constant.property-value.sass, source.sass constant.other.rgb-value.sass</string>
             <key>settings</key>
             <dict>
                 <key>foreground</key>
@@ -656,7 +619,7 @@
         </dict>
         <dict>
             <key>name</key>
-            <string>Variable or Function Parameter</string>
+            <string>Variable</string>
             <key>scope</key>
             <string>source.sass variable.parameter.sass</string>
             <key>settings</key>
@@ -682,7 +645,7 @@
         </dict>
         <dict>
             <key>name</key>
-            <string>Ampersand Character</string>
+            <string>Ampersand Operator</string>
             <key>scope</key>
             <string>source.sass keyword.control.untitled</string>
             <key>settings</key>
@@ -748,6 +711,17 @@
             <dict>
                 <key>foreground</key>
                 <string>#E9FDAC</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>Attribute Assignment Operator</string>
+            <key>scope</key>
+            <string>text.html.basic punctuation.separator.key-value.html</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#FF5E5E</string>
             </dict>
         </dict>
         <dict>
