@@ -323,17 +323,280 @@
         </dict>
 
 
+        <!-- CSS -->
+
+        <dict>
+            <key>name</key>
+            <string>ID Selector</string>
+            <key>scope</key>
+            <string>source.css entity.other.attribute-name.id.css</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#8CDAFF</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>Class Selector</string>
+            <key>scope</key>
+            <string>source.css entity.other.attribute-name.class.css</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#8CDAFF</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>Wildcard Selector</string>
+            <key>scope</key>
+            <string>source.css entity.name.tag.wildcard.css</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#FF5E5E</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>Element Selector</string>
+            <key>scope</key>
+            <string>source.css entity.name.tag.css</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#FF5E5E</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>Curly Braces</string>
+            <key>scope</key>
+            <string>source.css punctuation.section.property-list.css</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#A9B9B0</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>Property Name</string>
+            <key>scope</key>
+            <string>source.css support.type.property-name.css</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string></string>
+            </dict>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>Property Value String</string>
+            <key>scope</key>
+            <string>source.css support.constant.property-value.css</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#FBDFB5</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>Important Keyword</string>
+            <key>scope</key>
+            <string>source.css keyword.other.important.css</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#D77676</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>Property Value Number</string>
+            <key>scope</key>
+            <string>source.css constant.numeric.css</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#D0D0D0</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>Attribute Brackets</string>
+            <key>scope</key>
+            <string>source.css meta.attribute-selector</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#D77676</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>Attribute Name</string>
+            <key>scope</key>
+            <string>source.css entity.other.attribute-name.attribute.css</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#8CDAFF</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>Attribute Assignment Operator</string>
+            <key>scope</key>
+            <string>source.css punctuation.separator.operator.css</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#FF5E5E</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>Attribute Value</string>
+            <key>scope</key>
+            <string>source.css string.quoted.single.attribute-value.css, source.css string.quoted.double.attribute-value.css</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#FBDFB5</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>Function Invoked</string>
+            <key>scope</key>
+            <string>source.css support.function.misc.css, source.css punctuation.section.function.css</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#C9E9E0</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>Pseudo State Selector</string>
+            <key>scope</key>
+            <string>source.css entity.other.attribute-name.pseudo-class.css</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#FF5E5E</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>Pseudo State Operator</string>
+            <key>scope</key>
+            <string>source.css entity.other.attribute-name.pseudo-class.css punctuation.definition.entity.css</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#FF5E5E</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>Pseudo Element Operator</string>
+            <key>scope</key>
+            <string>source.css entity.other.attribute-name.pseudo-element.css punctuation.definition.entity.css</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#FF5E5E</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>Pseudo Element Selector</string>
+            <key>scope</key>
+            <string>source.css entity.other.attribute-name.pseudo-element.css</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#FF5E5E</string>
+            </dict>
+        </dict>
+
+<!--
+        <dict>
+            <key>name</key>
+            <string>Variable or Function Parameter</string>
+            <key>scope</key>
+            <string>source.css variable.parameter.css</string>
+            <key>settings</key>
+            <dict>
+                <key>fontStyle</key>
+                <string>italic</string>
+                <key>foreground</key>
+                <string>#FBDFB5</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>Mixin Placeholder Function</string>
+            <key>scope</key>
+            <string>source.css keyword.control.at-rule.css</string>
+            <key>settings</key>
+            <dict>
+                <key>fontStyle</key>
+                <string>italic</string>
+                <key>foreground</key>
+                <string>#FBDFB5</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>Ampersand Character</string>
+            <key>scope</key>
+            <string>source.css keyword.control.untitled</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#FF5E5E</string>
+            </dict>
+        </dict>
+-->
+
         <!-- Sass -->
 
         <dict>
             <key>name</key>
-            <string>Class Name</string>
+            <string>ID Selector</string>
+            <key>scope</key>
+            <string>source.sass entity.other.attribute-name.id.sass</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#8CDAFF</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>Class Selector</string>
             <key>scope</key>
             <string>source.sass entity.other.attribute-name.class.sass</string>
             <key>settings</key>
             <dict>
                 <key>foreground</key>
                 <string>#8CDAFF</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>Pseudo Selector</string>
+            <key>scope</key>
+            <string>source.sass entity.other.attribute-name.tag.pseudo-class</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#FF5E5E</string>
             </dict>
         </dict>
         <dict>
@@ -422,17 +685,6 @@
             <string>Ampersand Character</string>
             <key>scope</key>
             <string>source.sass keyword.control.untitled</string>
-            <key>settings</key>
-            <dict>
-                <key>foreground</key>
-                <string>#FF5E5E</string>
-            </dict>
-        </dict>
-        <dict>
-            <key>name</key>
-            <string>Pseudo Selector</string>
-            <key>scope</key>
-            <string>source.sass entity.other.attribute-name.tag.pseudo-class</string>
             <key>settings</key>
             <dict>
                 <key>foreground</key>
