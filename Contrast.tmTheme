@@ -60,6 +60,17 @@
         </dict>
         <dict>
             <key>name</key>
+            <string>Trailing Spaces</string>
+            <key>scope</key>
+            <string>trailing.spaces</string>
+            <key>settings</key>
+            <dict>
+                <key>background</key>
+                <string>#262624</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>name</key>
             <string>Comment</string>
             <key>scope</key>
             <string>comment</string>
