@@ -816,7 +816,7 @@
         </dict>
         <dict>
             <key>name</key>
-            <string>Element Brackets</string>
+            <string>Element Tag Brackets</string>
             <key>scope</key>
             <string>text.xml punctuation.definition.tag.begin.xml, text.xml punctuation.definition.tag.end.xml</string>
             <key>settings</key>
@@ -848,6 +848,53 @@
             </dict>
         </dict>
 
+
+        <!-- JSON -->
+
+        <dict>
+            <key>name</key>
+            <string>Curly Braces</string>
+            <key>scope</key>
+            <string>source.json punctuation.definition.array.begin.json, source.json punctuation.definition.array.end.json</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#D77676</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>Square Brackets</string>
+            <key>scope</key>
+            <string>source.json punctuation.definition.dictionary.begin.json, source.json punctuation.definition.dictionary.end.json</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#A9B9B0</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>String</string>
+            <key>scope</key>
+            <string>source.json string.quoted.double.json</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#FBDFB5</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>Number</string>
+            <key>scope</key>
+            <string>source.json constant.numeric.json</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#D0D0D0</string>
+            </dict>
+        </dict>
     </array>
 </dict>
 </plist>
