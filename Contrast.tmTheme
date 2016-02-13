@@ -624,10 +624,8 @@
             <string>source.sass variable.parameter.sass</string>
             <key>settings</key>
             <dict>
-                <key>fontStyle</key>
-                <string>italic</string>
                 <key>foreground</key>
-                <string>#FBDFB5</string>
+                <string>#FFCC32</string>
             </dict>
         </dict>
         <dict>
@@ -660,6 +658,17 @@
 
         <dict>
             <key>name</key>
+            <string>Doctype</string>
+            <key>scope</key>
+            <string>text.html.basic meta.tag.sgml.html</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#FFCC32</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>name</key>
             <string>Element Tag Name</string>
             <key>scope</key>
             <string>text.html.basic entity.name.tag.block.any.html, text.html.basic entity.name.tag.inline.any.html, text.html.basic meta.tag.structure.any.html entity.name.tag.structure.any.html</string>
@@ -677,7 +686,7 @@
             <key>settings</key>
             <dict>
                 <key>foreground</key>
-                <string>#EEEEEE</string>
+                <string>#D0D0D0</string>
             </dict>
         </dict>
         <dict>
@@ -711,17 +720,6 @@
             <dict>
                 <key>foreground</key>
                 <string>#E9FDAC</string>
-            </dict>
-        </dict>
-        <dict>
-            <key>name</key>
-            <string>Attribute Assignment Operator</string>
-            <key>scope</key>
-            <string>text.html.basic punctuation.separator.key-value.html</string>
-            <key>settings</key>
-            <dict>
-                <key>foreground</key>
-                <string>#FF5E5E</string>
             </dict>
         </dict>
         <dict>
@@ -766,6 +764,87 @@
             <dict>
                 <key>foreground</key>
                 <string>#8CDAFF</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>Attribute Assignment Operator</string>
+            <key>scope</key>
+            <string>text.html.basic punctuation.separator.key-value.html</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#FF5E5E</string>
+            </dict>
+        </dict>
+
+
+        <!-- XML -->
+
+        <dict>
+            <key>name</key>
+            <string>Preprocessor</string>
+            <key>scope</key>
+            <string>text.xml meta.tag.preprocessor.xml, text.xml meta.tag.preprocessor.xml punctuation.definition.tag.begin.xml</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#FFCC32</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>Doctype</string>
+            <key>scope</key>
+            <string>text.xml meta.tag.sgml.doctype.xml, text.xml meta.tag.sgml.doctype.xml punctuation.definition.tag.begin.xml</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#FFCC32</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>Element Tag Name</string>
+            <key>scope</key>
+            <string>text.xml entity.name.tag.localname.xml</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#FF5E5E</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>Element Brackets</string>
+            <key>scope</key>
+            <string>text.xml punctuation.definition.tag.begin.xml, text.xml punctuation.definition.tag.end.xml</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#D0D0D0</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>Attribute Name</string>
+            <key>scope</key>
+            <string>text.xml entity.other.attribute-name.xml, text.xml entity.other.attribute-name.localname.xml</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#8CDAFF</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>Attribute Value</string>
+            <key>scope</key>
+            <string>text.xml string.quoted.single.xml, text.xml string.quoted.double.xml</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#FBDFB5</string>
             </dict>
         </dict>
 
