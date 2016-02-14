@@ -134,7 +134,8 @@
             <key>name</key>
             <string>Function Name</string>
             <key>scope</key>
-            <string>source.js meta.function.js entity.name.function.js, source.js meta.function.static.js entity.name.function.js, source.js meta.group.braces.curly meta.function.json.js entity.name.function.js</string>
+            <!-- <string>source.js meta.function.js entity.name.function.js, source.js meta.function.static.js entity.name.function.js, source.js meta.group.braces.curly meta.function.json.js entity.name.function.js</string> -->
+            <string>source.js entity.name.function.js</string>
             <key>settings</key>
             <dict>
                 <key>foreground</key>
@@ -257,6 +258,17 @@
         </dict>
         <dict>
             <key>name</key>
+            <string>Operator</string>
+            <key>scope</key>
+            <string>source.js keyword.operator.js</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#FF5E5E</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>name</key>
             <string>Accessor Operator</string>
             <key>scope</key>
             <string>source.js keyword.operator.accessor.js</string>
@@ -270,7 +282,7 @@
             <key>name</key>
             <string>Assignment Operator</string>
             <key>scope</key>
-            <string>source.js keyword.operator.assignment.js, source.js meta.function.static.js</string>
+            <string>source.js keyword.operator.assignment.js, source.js keyword.operator.assignment.augmented.js, source.js meta.function.static.js</string>
             <key>settings</key>
             <dict>
                 <key>foreground</key>
@@ -281,7 +293,7 @@
             <key>name</key>
             <string>Comparison Operator</string>
             <key>scope</key>
-            <string>source.js keyword.operator.comparison.js</string>
+            <string>source.js keyword.operator.comparison.js, source.js keyword.operator.relational.js</string>
             <key>settings</key>
             <dict>
                 <key>foreground</key>
@@ -312,6 +324,17 @@
         </dict>
         <dict>
             <key>name</key>
+            <string>Loop Keyword</string>
+            <key>scope</key>
+            <string>source.js keyword.control.loop.js</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#FF5E5E</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>name</key>
             <string>Return Keyword</string>
             <key>scope</key>
             <string>source.js keyword.control.flow.js</string>
@@ -323,9 +346,20 @@
         </dict>
         <dict>
             <key>name</key>
-            <string>If/Else Keyword</string>
+            <string>If/Else Statement Keyword</string>
             <key>scope</key>
             <string>source.js keyword.control.conditional.js</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#FF5E5E</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>Switch Statement Keyword</string>
+            <key>scope</key>
+            <string>source.js keyword.control.switch.js</string>
             <key>settings</key>
             <dict>
                 <key>foreground</key>
@@ -904,6 +938,307 @@
             <dict>
                 <key>foreground</key>
                 <string>#FBDFB5</string>
+            </dict>
+        </dict>
+
+
+        <!-- PHP -->
+
+        <dict>
+            <key>name</key>
+            <string>Class Name</string>
+            <key>scope</key>
+            <string>source.php entity.name.type.class.php</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#A5FEA0</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>Inherited Class Name</string>
+            <key>scope</key>
+            <string>source.php entity.other.inherited-class.php</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#A5FEA0</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>Class Invoked</string>
+            <key>scope</key>
+            <string>source.php support.class.php</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#E9FDAC</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>Class Keyword</string>
+            <key>scope</key>
+            <string>source.php storage.type.class.php</string>
+            <key>settings</key>
+            <dict>
+                <key>fontStyle</key>
+                <string>italic</string>
+                <key>foreground</key>
+                <!-- <string>#FBDFB5</string> -->
+                <string>#FFCC32</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>Extends Keyword</string>
+            <key>scope</key>
+            <string>source.php storage.modifier.extends.php</string>
+            <key>settings</key>
+            <dict>
+                <key>fontStyle</key>
+                <string>italic</string>
+                <key>foreground</key>
+                <string>#FFCC32</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>Function Type</string>
+            <key>scope</key>
+            <string>source.php meta.function.php storage.modifier.php</string>
+            <key>settings</key>
+            <dict>
+                <key>fontStyle</key>
+                <string>italic</string>
+                <key>foreground</key>
+                <string>#FBDFB5</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>Function Keyword</string>
+            <key>scope</key>
+            <string>source.php meta.function.php storage.type.function.php</string>
+            <key>settings</key>
+            <dict>
+                <key>fontStyle</key>
+                <string>italic</string>
+                <key>foreground</key>
+                <string>#FBDFB5</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>Function Name</string>
+            <key>scope</key>
+            <string>source.php entity.name.function.php</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#8CDAFF</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>Function Construct Keyword</string>
+            <key>scope</key>
+            <string>source.php support.function.magic.php</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#E9FDAC</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>Function Parenthesis</string>
+            <key>scope</key>
+            <string>source.php meta.function.php punctuation.definition.parameters.begin.php, source.php meta.function.php punctuation.definition.parameters.end.php</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#C9E9E0</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>Function Parameter</string>
+            <key>scope</key>
+            <string>source.php meta.function.arguments.php</string>
+            <key>settings</key>
+            <dict>
+                <key>fontStyle</key>
+                <string>italic</string>
+                <key>foreground</key>
+                <string>#D0D0D0</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>Function Invoked</string>
+            <key>scope</key>
+            <string>source.php meta.function-call.object.php, source.php meta.function-call.static.php, source.php support.function.construct.php, source.php support.function.array.php</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#C9E9E0</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>String</string>
+            <key>scope</key>
+            <string>source.php string.quoted.single.php, source.php string.quoted.double.php</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#FBDFB5</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>Number</string>
+            <key>scope</key>
+            <string>source.php constant.numeric.php</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#D0D0D0</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>Accessor Operator</string>
+            <key>scope</key>
+            <string>source.php keyword.operator.class.php</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#FF5E5E</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>Array Operator</string>
+            <key>scope</key>
+            <string>source.php keyword.operator.logical.php, source.php keyword.operator.key.php</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#FF5E5E</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>Assignment Operator</string>
+            <key>scope</key>
+            <string>source.php keyword.operator.assignment.php</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#FF5E5E</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>New Operator</string>
+            <key>scope</key>
+            <string>source.php keyword.other.new.php</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#FF5E5E</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>Control Keyword</string>
+            <key>scope</key>
+            <string>source.php keyword.control.php</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#FF5E5E</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>Math Operator</string>
+            <key>scope</key>
+            <string>source.php keyword.operator.arithmetic.php</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#FF5E5E</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>Comparisson Operator</string>
+            <key>scope</key>
+            <string>source.php keyword.operator.comparison.php</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#FF5E5E</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>String Operator</string>
+            <key>scope</key>
+            <string>source.php keyword.operator.string.php</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#FF5E5E</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>Comparisson Operator</string>
+            <key>scope</key>
+            <string>source.php keyword.operator.comparison.php</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#FF5E5E</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>Increment/Decrement Operator</string>
+            <key>scope</key>
+            <string>source.php keyword.operator.increment-decrement.php</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#FF5E5E</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>Constant</string>
+            <key>scope</key>
+            <string>source.php constant.language.php</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#D77676</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>Array Brackets</string>
+            <key>scope</key>
+            <string>source.php punctuation.section.array.begin.php, source.php punctuation.section.array.end.php</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#D77676</string>
             </dict>
         </dict>
     </array>
