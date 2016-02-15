@@ -80,6 +80,17 @@
                 <string>#6D6D6D</string>
             </dict>
         </dict>
+        <dict>
+            <key>name</key>
+            <string>Constant (numeric)</string>
+            <key>scope</key>
+            <string>constant.numeric</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#D0D0D0</string>
+            </dict>
+        </dict>
 
 
         <!-- JAVASCRIPT -->
@@ -177,6 +188,17 @@
                 <string>italic</string>
                 <key>foreground</key>
                 <string>#FBDFB5</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>Global Object</string>
+            <key>scope</key>
+            <string>source.js support.type.object.dom.js, source.js support.type.object.node.js</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#E9FDAC</string>
             </dict>
         </dict>
         <dict>
@@ -690,17 +712,6 @@
         </dict>
         <dict>
             <key>name</key>
-            <string>Number</string>
-            <key>scope</key>
-            <string>source.sass constant.numeric.sass</string>
-            <key>settings</key>
-            <dict>
-                <key>foreground</key>
-                <string>#D0D0D0</string>
-            </dict>
-        </dict>
-        <dict>
-            <key>name</key>
             <string>Unit of Measure</string>
             <key>scope</key>
             <string>source.sass constant.other.unit.sass</string>
@@ -790,7 +801,8 @@
             <key>settings</key>
             <dict>
                 <key>foreground</key>
-                <string>#E9FDAC</string>
+                <!-- <string>#E9FDAC</string> -->
+                <string>#B8FCB1</string>
             </dict>
         </dict>
         <dict>
@@ -801,7 +813,8 @@
             <key>settings</key>
             <dict>
                 <key>foreground</key>
-                <string>#E9FDAC</string>
+                <!-- <string>#E9FDAC</string> -->
+                <string>#B8FCB1</string>
             </dict>
         </dict>
         <dict>
@@ -812,7 +825,8 @@
             <key>settings</key>
             <dict>
                 <key>foreground</key>
-                <string>#E9FDAC</string>
+                <!-- <string>#E9FDAC</string> -->
+                <string>#B8FCB1</string>
             </dict>
         </dict>
         <dict>
@@ -823,7 +837,8 @@
             <key>settings</key>
             <dict>
                 <key>foreground</key>
-                <string>#E9FDAC</string>
+                <!-- <string>#E9FDAC</string> -->
+                <string>#B8FCB1</string>
             </dict>
         </dict>
         <dict>
@@ -918,7 +933,7 @@
                 <string>#D0D0D0</string>
             </dict>
         </dict>
-        <dict>
+<!--         <dict>
             <key>name</key>
             <string>Attribute Name</string>
             <key>scope</key>
@@ -940,7 +955,7 @@
                 <string>#FBDFB5</string>
             </dict>
         </dict>
-
+ -->
 
         <!-- PHP -->
 
@@ -952,7 +967,7 @@
             <key>settings</key>
             <dict>
                 <key>foreground</key>
-                <string>#A5FEA0</string>
+                <string>#B8FCB1</string>
             </dict>
         </dict>
         <dict>
@@ -963,7 +978,7 @@
             <key>settings</key>
             <dict>
                 <key>foreground</key>
-                <string>#A5FEA0</string>
+                <string>#B8FCB1</string>
             </dict>
         </dict>
         <dict>
@@ -987,8 +1002,7 @@
                 <key>fontStyle</key>
                 <string>italic</string>
                 <key>foreground</key>
-                <!-- <string>#FBDFB5</string> -->
-                <string>#FFCC32</string>
+                <string>#FBDFB5</string>
             </dict>
         </dict>
         <dict>
@@ -1001,7 +1015,7 @@
                 <key>fontStyle</key>
                 <string>italic</string>
                 <key>foreground</key>
-                <string>#FFCC32</string>
+                <string>#FBDFB5</string>
             </dict>
         </dict>
         <dict>
@@ -1080,7 +1094,7 @@
             <key>name</key>
             <string>Function Invoked</string>
             <key>scope</key>
-            <string>source.php meta.function-call.object.php, source.php meta.function-call.static.php, source.php support.function.construct.php, source.php support.function.array.php</string>
+            <string>source.php meta.function-call.php, source.php meta.function-call.object.php, source.php meta.function-call.static.php, source.php support.function.construct.php, source.php support.function.var.php, source.php support.function.string.php, source.php support.function.array.php, source.php support.function.php_pcre.php</string>
             <key>settings</key>
             <dict>
                 <key>foreground</key>
@@ -1239,6 +1253,28 @@
             <dict>
                 <key>foreground</key>
                 <string>#D77676</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>Embedded PHP</string>
+            <key>scope</key>
+            <string>embedding.php variable</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#F8F8F2</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>Embedded PHP</string>
+            <key>scope</key>
+            <string>embedding.php punctuation.section.embedded.begin.php, embedding.php punctuation.section.embedded.end.php</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#B8FCB1</string>
             </dict>
         </dict>
     </array>
