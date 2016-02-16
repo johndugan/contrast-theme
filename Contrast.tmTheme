@@ -131,6 +131,39 @@
         </dict>
         <dict>
             <key>name</key>
+            <string>Regex</string>
+            <key>scope</key>
+            <string>string.regexp</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string></string>
+            </dict>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>Regex Container Slashes</string>
+            <key>scope</key>
+            <string>string.regexp punctuation.definition.string</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#A9B9B0</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>Regex Mode Keyword</string>
+            <key>scope</key>
+            <string>string.regexp keyword.other</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#FF5E5E</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>name</key>
             <string>Function Name</string>
             <key>scope</key>
             <string>entity.name.function</string>
@@ -466,9 +499,20 @@
 
         <dict>
             <key>name</key>
+            <string>Class Name</string>
+            <key>scope</key>
+            <string>entity.name.class.js</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#F8F8F2</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>name</key>
             <string>Function Invoked</string>
             <key>scope</key>
-            <string>variable.function.js, support.class.builtin.js</string>
+            <string>variable.function.js, variable.function.constructor.js, support.class.builtin.js</string>
             <key>settings</key>
             <dict>
                 <key>foreground</key>
@@ -600,6 +644,17 @@
             <dict>
                 <key>foreground</key>
                 <string>#FF5E5E</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>Regex</string>
+            <key>scope</key>
+            <string>source.php string.regexp, keyword.operator.regexp.php</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#F8F8F2</string>
             </dict>
         </dict>
 
