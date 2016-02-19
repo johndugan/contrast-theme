@@ -670,6 +670,32 @@
         </dict>
 
 
+        <!-- SQL -->
+
+        <dict>
+            <key>name</key>
+            <string>Keyword</string>
+            <key>scope</key>
+            <string>source.sql keyword.other</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#FF5E5E</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>Null Keyword</string>
+            <key>scope</key>
+            <string>keyword.other.DDL.create.II.sql</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#D77676</string>
+            </dict>
+        </dict>
+
+
         <!-- Extensions -->
 
         <dict>
