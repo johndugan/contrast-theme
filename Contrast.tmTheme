@@ -510,6 +510,17 @@
         </dict>
         <dict>
             <key>name</key>
+            <string>Function Parameter Separator</string>
+            <key>scope</key>
+            <string>punctuation.separator.parameter.function.js</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#F8F8F2</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>name</key>
             <string>Function Invoked</string>
             <key>scope</key>
             <string>variable.function.js, variable.function.constructor.js, support.class.builtin.js</string>
