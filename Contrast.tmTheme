@@ -495,7 +495,7 @@
         </dict>
 
 
-        <!-- JavaScript / JSON -->
+        <!-- JavaScript / JSON / JSX -->
 
         <dict>
             <key>name</key>
@@ -583,6 +583,17 @@
             <dict>
                 <key>foreground</key>
                 <string>#FF5E5E</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>Embedded JSX Curly Braces</string>
+            <key>scope</key>
+            <string>punctuation.section.embedded.begin.jsx, punctuation.section.embedded.end.jsx</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#B8FCB1</string>
             </dict>
         </dict>
 
