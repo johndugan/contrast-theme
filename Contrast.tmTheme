@@ -770,6 +770,32 @@
                 <string>#262624</string>
             </dict>
         </dict>
+        <dict>
+            <key>name</key>
+            <string>Bracket Highlighter Default</string>
+            <key>scope</key>
+            <string>brackethighlighter.default</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#515151</string>
+                <key>background</key>
+                <string>#5D5D5D</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>Bracket Highlighter Unmatched</string>
+            <key>scope</key>
+            <string>brackethighlighter.unmatched</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#DDB700</string>
+                <key>background</key>
+                <string>#DDB700</string>
+            </dict>
+        </dict>
     </array>
 </dict>
 </plist>
