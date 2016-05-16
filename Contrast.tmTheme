@@ -529,7 +529,7 @@
             <key>name</key>
             <string>Function Invoked</string>
             <key>scope</key>
-            <string>variable.function.js, variable.function.constructor.js, support.class.builtin.js</string>
+            <string>variable.function.js, variable.function.constructor.js, variable.type.js, support.class.builtin.js</string>
             <key>settings</key>
             <dict>
                 <key>foreground</key>
