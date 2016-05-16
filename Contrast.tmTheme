@@ -551,7 +551,7 @@
             <key>name</key>
             <string>Curly Braces</string>
             <key>scope</key>
-            <string>source.js meta.brace.curly, source.json punctuation.definition.dictionary</string>
+            <string>punctuation.definition.block.js, source.json punctuation.definition.dictionary</string>
             <key>settings</key>
             <dict>
                 <key>foreground</key>
@@ -562,7 +562,7 @@
             <key>name</key>
             <string>Square Brackets</string>
             <key>scope</key>
-            <string>source.js meta.brace.square, source.json punctuation.definition.array</string>
+            <string>punctuation.definition.brackets.js, source.json punctuation.definition.array</string>
             <key>settings</key>
             <dict>
                 <key>foreground</key>
@@ -573,7 +573,7 @@
             <key>name</key>
             <string>Parenthesis</string>
             <key>scope</key>
-            <string>meta.brace.round.js, meta.group.braces.round.function.arguments.js, source.js punctuation.definition.parameters, source.json punctuation.definition.parameters</string>
+            <string>punctuation.definition.group.js, source.js punctuation.definition.parameters, source.json punctuation.definition.parameters</string>
             <key>settings</key>
             <dict>
                 <key>foreground</key>
