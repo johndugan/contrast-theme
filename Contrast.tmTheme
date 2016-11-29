@@ -593,6 +593,39 @@
         </dict>
         <dict>
             <key>name</key>
+            <string>Template Strings</string>
+            <key>scope</key>
+            <string>string.template.js</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#FBDFB5</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>Template String Expression</string>
+            <key>scope</key>
+            <string>meta.template.expression.js</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#F8F8F2</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>Template String Expression Punctuation</string>
+            <key>scope</key>
+            <string>punctuation.definition.template-expression</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#F8F8F2</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>name</key>
             <string>Embedded JSX Curly Braces</string>
             <key>scope</key>
             <string>punctuation.section.embedded.begin.jsx, punctuation.section.embedded.end.jsx</string>
