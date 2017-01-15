@@ -529,7 +529,7 @@
             <key>name</key>
             <string>Function Invoked</string>
             <key>scope</key>
-            <string>variable.function.js, variable.function.constructor.js, variable.type.js, support.class.builtin.js</string>
+            <string>variable.function.js, variable.function.constructor.js, variable.type.js, meta.function-call.without-arguments.js</string>
             <key>settings</key>
             <dict>
                 <key>foreground</key>
@@ -538,20 +538,9 @@
         </dict>
         <dict>
             <key>name</key>
-            <string>Global Object</string>
-            <key>scope</key>
-            <string>source.js support.type.object</string>
-            <key>settings</key>
-            <dict>
-                <key>foreground</key>
-                <string>#FFE082</string>
-            </dict>
-        </dict>
-        <dict>
-            <key>name</key>
             <string>Curly Braces</string>
             <key>scope</key>
-            <string>punctuation.definition.block.js, source.json punctuation.definition.dictionary</string>
+            <string>punctuation.definition.block.js, source.json punctuation.definition.dictionary, meta.brace.curly.begin.js, meta.brace.curly.end.js</string>
             <key>settings</key>
             <dict>
                 <key>foreground</key>
@@ -562,7 +551,7 @@
             <key>name</key>
             <string>Square Brackets</string>
             <key>scope</key>
-            <string>punctuation.definition.brackets.js, source.json punctuation.definition.array</string>
+            <string>punctuation.definition.brackets.js, source.json punctuation.definition.array, meta.brace.square.begin.js, meta.brace.square.end.js</string>
             <key>settings</key>
             <dict>
                 <key>foreground</key>
@@ -573,7 +562,7 @@
             <key>name</key>
             <string>Parenthesis</string>
             <key>scope</key>
-            <string>punctuation.definition.group.js, source.js punctuation.definition.parameters, source.json punctuation.definition.parameters</string>
+            <string>punctuation.definition.group.js, source.js punctuation.definition.parameters, source.json punctuation.definition.parameters, meta.brace.round.begin.js, meta.brace.round.end.js</string>
             <key>settings</key>
             <dict>
                 <key>foreground</key>
@@ -593,9 +582,31 @@
         </dict>
         <dict>
             <key>name</key>
+            <string>Object Accessor</string>
+            <key>scope</key>
+            <string>punctuation.accessor.js</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#FF5E5E</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>Native Objects & DOM</string>
+            <key>scope</key>
+            <string>support.class.builtin.js, support.type.object.dom.js, support.function.builtin.js</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#FFE082</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>name</key>
             <string>Template Strings</string>
             <key>scope</key>
-            <string>string.template.js</string>
+            <string>string.template.js, string.interpolated.js</string>
             <key>settings</key>
             <dict>
                 <key>foreground</key>
@@ -617,11 +628,11 @@
             <key>name</key>
             <string>Template String Expression Punctuation</string>
             <key>scope</key>
-            <string>punctuation.definition.template-expression</string>
+            <string>punctuation.definition.template-expression, keyword.other.substitution.begin.js, keyword.other.substitution.end.js</string>
             <key>settings</key>
             <dict>
                 <key>foreground</key>
-                <string>#F8F8F2</string>
+                <string>#D77676</string>
             </dict>
         </dict>
         <dict>
