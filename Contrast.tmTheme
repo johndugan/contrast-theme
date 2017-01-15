@@ -14,6 +14,12 @@
         <dict>
             <key>settings</key>
             <dict>
+
+                <!--
+                http://docs.sublimetext.info/en/latest/reference/color_schemes.html#global-settings
+                -->
+
+                <!-- General -->
                 <key>foreground</key>
                 <string>#F8F8F2</string>
                 <key>background</key>
@@ -21,19 +27,77 @@
                 <key>invisibles</key>
                 <string>#3B3A32</string>
                 <key>caret</key>
-                <string>#F8F8F0</string>
+                <string>#F8F8F2</string>
                 <key>lineHighlight</key>
                 <string>#3D3D3D54</string>
+
+                <!-- Brackets -->
+                <key>bracketContentsOptions</key>
+                <string>stippled_underline</string>
+                <key>bracketContentsForeground</key>
+                <string>#F8F8F290</string>
+                <key>bracketsOptions</key>
+                <string>stippled_underline</string>
+                <key>bracketsForeground</key>
+                <string>#F8F8F2</string>
+
+                <!-- Tags -->
+                <key>tagsOptions</key>
+                <string>stippled_underline</string>
+                <key>tagsForeground</key>
+                <string>#F8F8F2</string>
+
+                <!-- Find -->
+                <key>findHighlight</key>
+                <string>#E00070</string>
+                <key>findHighlightForeground</key>
+                <string>#FFFFFF</string>
+
+                <!-- Gutter -->
+                <key>gutter</key>
+                <string>#191919</string>
+                <key>gutterForeground</key>
+                <string>#5D5D5D</string>
+
+                <!-- Selection -->
                 <key>selection</key>
                 <string>#515151</string>
+                <key>selectionBorder</key>
+                <string>#5D5D5D</string>
+                <key>inactiveSelection</key>
+                <string>#515151</string>
+
+                <!-- Guides -->
                 <key>guide</key>
                 <string>#3A3A39</string>
                 <key>activeGuide</key>
                 <string>#5D5D5D</string>
                 <key>stackGuide</key>
                 <string>#3A3A39</string>
+
+                <!-- Highlighted Regions -->
+                <key>highlight</key>
+                <string>#5D5D5D</string>
+                <!--
+                <key>highlightForeground</key>
+                <string>#FFFFFF</string>
+                -->
+
+                <!-- Shadow -->
+                <!--
+                <key>shadow</key>
+                <string>#FFFFFF</string>
+                <key>shadowWidth</key>
+                <string>8</string>
+                -->
+
             </dict>
         </dict>
+
+        <!--
+        http://www.sublimetext.com/docs/3/scope_naming.html
+        -->
+
         <dict>
             <key>name</key>
             <string>Comment</string>
@@ -190,6 +254,17 @@
                 <string>italic</string>
                 <key>foreground</key>
                 <string>#D0D0D0</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>Function Call</string>
+            <key>scope</key>
+            <string>meta.function-call</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#C9E9E0</string>
             </dict>
         </dict>
         <dict>
@@ -527,9 +602,9 @@
         </dict>
         <dict>
             <key>name</key>
-            <string>Function Invoked</string>
+            <string>Function Call</string>
             <key>scope</key>
-            <string>variable.function.js, variable.function.constructor.js, variable.type.js, meta.function-call.without-arguments.js</string>
+            <string>variable.function.js, variable.function.constructor.js, variable.type.js</string>
             <key>settings</key>
             <dict>
                 <key>foreground</key>
@@ -698,17 +773,6 @@
         </dict>
         <dict>
             <key>name</key>
-            <string>Function Invoked</string>
-            <key>scope</key>
-            <string>source.php meta.function-call</string>
-            <key>settings</key>
-            <dict>
-                <key>foreground</key>
-                <string>#C9E9E0</string>
-            </dict>
-        </dict>
-        <dict>
-            <key>name</key>
             <string>Square Brackets</string>
             <key>scope</key>
             <string>source.php punctuation.section.array</string>
@@ -822,9 +886,9 @@
             <key>settings</key>
             <dict>
                 <key>foreground</key>
-                <string>#515151</string>
+                <string>#F8F8F275</string>
                 <key>background</key>
-                <string>#5D5D5D</string>
+                <string>#5D5D5D90</string>
             </dict>
         </dict>
         <dict>
