@@ -679,6 +679,17 @@
         </dict>
         <dict>
             <key>name</key>
+            <string>Default Parameter</string>
+            <key>scope</key>
+            <string>meta.parameter.optional.js</string>
+            <key>settings</key>
+            <dict>
+                <key>fontStyle</key>
+                <string>italic</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>name</key>
             <string>Template Strings</string>
             <key>scope</key>
             <string>string.template.js, string.interpolated.js</string>
