@@ -374,7 +374,7 @@
             <key>name</key>
             <string>Embedded Script Tag Name</string>
             <key>scope</key>
-            <string>source.js.embedded entity.name.tag</string>
+            <string>entity.name.tag.script</string>
             <key>settings</key>
             <dict>
                 <key>foreground</key>
