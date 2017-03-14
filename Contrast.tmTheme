@@ -234,6 +234,19 @@
         </dict>
         <dict>
             <key>name</key>
+            <string>Error Keyword</string>
+            <key>scope</key>
+            <string>support.class.error</string>
+            <key>settings</key>
+            <dict>
+                <key>fontStyle</key>
+                <string>bold</string>
+                <key>foreground</key>
+                <string>#FF5E5E</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>name</key>
             <string>Function Name</string>
             <key>scope</key>
             <string>entity.name.function</string>
